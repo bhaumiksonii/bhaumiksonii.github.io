@@ -1,0 +1,7 @@
+This is a placeholder for your resume PDF file.
+Replace this file with your actual resume PDF.
+
+To add your resume:
+1. Place your resume.pdf file in the public folder
+2. The download button on the homepage will automatically work
+3. You can also change the filename in data/site-config.json under personal.resumeUrl

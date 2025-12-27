@@ -1,0 +1,187 @@
+{
+  "personal": {
+    "name": "Alex Chen",
+    "title": "Senior Data Engineer",
+    "tagline": "Building scalable data pipelines and architectures with Python, SQL, Spark, and AWS",
+    "profileImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuDaioijDp5iqbfVxZcTcIdYwo47t-wqbacfwkTKu92-9mIi_5xvq5ngiT_oYbcBE76ZxdiRKCrgp45T4Hav38cRFF_tjATkaWlOepTfv-6YdAbevv_DW3myS_4kQJUI5SYONH3ggtABBnD9uySKBemU3Qar4-4gYU4Q7UMp1b_4rmqGCsoltIxZbCE3vmZcLyHVWr95JBMRtjDvG-MzbrzR5NHZHTiMrLgCFMlUTicditVfMhI_6v0Ex5Uj-EzeVXNkF8QPD7fWqNAV",
+    "skills": "Python • SQL • Spark • AWS",
+    "resumeUrl": "/resume.pdf"
+  },
+  "contact": {
+    "email": "alex.chen@example.com",
+    "linkedin": "https://linkedin.com/in/alechen",
+    "github": "https://github.com/alechen-data",
+    "web3formsKey": "",
+    "status": {
+      "openToWork": true,
+      "availability": "immediate",
+      "location": "remote"
+    }
+  },
+  "home": {
+    "heading": "Alex Chen",
+    "subheading": "Senior Data Engineer",
+    "description": "Building scalable data pipelines and architectures with Python, SQL, Spark, and AWS",
+    "stats": {
+      "experience": "5+",
+      "toolsMastered": "20+"
+    },
+    "cards": [
+      {
+        "title": "Tech Stack",
+        "icon": "code",
+        "description": "Explore the languages, frameworks, and tools I use to build data solutions",
+        "link": "/tech-stack"
+      },
+      {
+        "title": "Certifications",
+        "icon": "workspace_premium",
+        "description": "Verified expertise in cloud architecture, data engineering, and machine learning",
+        "link": "/certifications"
+      },
+      {
+        "title": "Contact Me",
+        "icon": "mail",
+        "description": "Let's discuss how I can help optimize your data infrastructure",
+        "link": "/contact"
+      }
+    ]
+  },
+  "certifications": {
+    "heading": "Certifications",
+    "subheading": "Verified technical expertise and professional milestones in data engineering, cloud architecture, and machine learning.",
+    "stats": {
+      "verified": 12,
+      "vendors": 4
+    },
+    "items": [
+      {
+        "title": "AWS Certified Solutions Architect",
+        "provider": "Professional Level",
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuDeGoD0tS-hxrPlCKI1mXuAkb_TCV6IW4iRTY2Ge3XXqFZSwMnzO5Vsp3FBK9xlFJMXS7PMxygf06ZShgrl6rWV7F_O_18oKyTlL-fCJqGRYAH2thr-QuLq4S8S1LvSGAXWOASnE_JzcfG_AtE0NOCy2t9Z23lcjTMsxeUC5l9mQdrE4KVx9apdmobLcc3IHdImxEUFRCBOMDTRWWoA9mbswmqy94-GeTefkjwae8g9c-656XmMhJ7w0H3mXtoNbi0TekwlNoetrw2L",
+        "status": "Expires 2027",
+        "issued": "Jan 12, 2024"
+      },
+      {
+        "title": "Professional Data Engineer",
+        "provider": "Google Cloud",
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuAQIU5E3vaORUz2ZOX3vFsW-yb-00YX3Qcerw7Rc_W2BE815f96yPbYqoJrxRRL4oPRldmlywJDjvXhtYOTUbXfcCzQrPzaP50YY6CL2m3bo8nirCip6LeFgmrsImOOyngojUzIRM7ZFEmiAJAS72EFZbdaN0WnFYID5xy3M-OG15PKA4FZ8uTY8h8zbkyx6A0NRSazDIX51PUo3h7z_F2JvcpTT20NOMJFSEe4SPKjAUMgED7l53I3AbbLJ0zSwIrWNaG7AT8B4A_J",
+        "status": "Active",
+        "issued": "Aug 20, 2023"
+      },
+      {
+        "title": "Certified Data Engineer Professional",
+        "provider": "Databricks",
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuD1LCVbbi2CzaK5CQrOqoulzTOmP68K3dG6CeRu4-ULcGVy_durNAltGp1WO1HAnPDQR8DCo7azF8PldAhUWZUAwY_4aDvC-MwMVge61vCd5vZEDwBdKlTkTlrUWzZvAsNlCdcAV6ZCe7I1O8ac9Et6kCjTJAszvdlk7YRLwiGAX-T7st-77V7o0NkDiBNm0Mem7er9VW0wd3ZfHgYK61yPwI08uY5bjyv3jtez2kcyKU0zs9QISQ2LwhdS6QTdndvF1isqGSDWF99U",
+        "status": "Active",
+        "issued": "Nov 05, 2023"
+      },
+      {
+        "title": "SnowPro Core Certification",
+        "provider": "Snowflake",
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuCfWqqvqQzdy1Kyz9zNDfWMoplxheYhaEsbS4F5-CGWjGKE6VdEJUoCrIs2K8BNMKhReMH6QY0GtUgbDeadR3N1X3VaRlwQwQJW1iDGQDViF_vqeKR42IAimJQzLPA9uqtBDqmsu9mOVPRH_wXZ0T2rONakDh-UkbHJzY86s-_Lj4LeR1mOh9lHBb1pNOTEZAXEZKQJco52EhD38WeYYIAJgyT7dx60rp_jSL13IcIbKem6TDEZYFTXp75X-svrIt3E3nsZ1E9z37oe",
+        "status": "Expires 2025",
+        "issued": "Mar 15, 2023"
+      },
+      {
+        "title": "Azure Data Engineer Associate",
+        "provider": "Microsoft",
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuDAHsQl9KINC74y7kfLH2ZkRX93OB3cRYwcXMTwqJAdykuXZFAoBWXVp8BfaPIK2GFz-4FUMhkgKlmFPFmZE0DLnJj0D4EccebW_6eNF0_DUfa-RY6GJ7S0xBkbY9KOdaHUL36LEwbDoBWc6kYaWsqVdsBreIPckZevhjQEK-tQcpi5_eNUjfcSetvGkbRGf0DoPEY0xtFLAEokXdIWKRfxAx3oxUqmBKrqv5fixrLc-XZ1mOH2kbO11lC3ZB7TgaD8yq07OxahcCJE",
+        "status": "Active",
+        "issued": "Jun 10, 2023"
+      },
+      {
+        "title": "PCAP – Certified Associate in Python",
+        "provider": "Python Institute",
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuCP2Op0TN_DezR96icGes34Tq9sB4Vujc9X0g7ulusEPqD-JjZcg0wRhbsaI9ELRXclf9OlkZ9F74N1LigTaDacsxCU0tQBmxXm3n3HBvCZZAfLBszGpckNSxW5jHR-rPqNC4tqoKDC-1utyLjQ8Zopm8WH1JkqkQs4wZ2kSu40FCHEU_OhyhQ99Q-b8xhTsgnx3KO7w0irrNY747MDnaQ6WvoxMk77NisoCzu_xe830QrHFxgCPbFdQgo-aEDsU8OZM3CeIl1hq7kc",
+        "status": "Lifetime",
+        "issued": "Feb 14, 2022"
+      }
+    ]
+  },
+  "techStack": {
+    "heading": "Technical Arsenal",
+    "subheading": "A comprehensive look at the languages, frameworks, and infrastructure tools I use to architect scalable data solutions and robust pipelines.",
+    "stats": {
+      "yearsExperience": "5+",
+      "toolsMastered": "20+"
+    },
+    "languages": [
+      {
+        "name": "Python",
+        "description": "Core language for ETL pipelines, data analysis, and Airflow DAGs.",
+        "level": "Expert",
+        "progress": 95,
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuBP-ZJPJVEMAaMoUG9-AD2C8AwtgGajbNyShwn3Le92aoep_sPghNZl6KvniCGr9M5dWTEqqDOFVNWQZuiHV4wxOKw4dYVhQU3OFsgm6xfr_N6A2bCb2OqL2L5dk0SqlSv082Avdl4YLO0g3llKvLnnEpMR2w4IHk5dK4bkA1-eyp1d-zvatz0YgQ99Yn_7Jh7yDCPGqO72BL62ZODdxTzYLuEIBkIH5KsgGPRwJgk6S9OR5ardO8JGRFgcJXf9Kuct6lFGQfgjGzEQ"
+      },
+      {
+        "name": "SQL",
+        "description": "Complex querying, window functions, CTEs, and stored procedures.",
+        "level": "Expert",
+        "progress": 98,
+        "icon": "database"
+      },
+      {
+        "name": "Java",
+        "description": "Used for Kafka streams and legacy Hadoop map-reduce jobs.",
+        "level": "Advanced",
+        "progress": 80,
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuA3gvnUGtSxiIGn6Nu6QoeRkCruO-y6oaRjYB_TkS61EvzwBiaQKtt5rvidvN_mBP6PqKCMy_p-FvXySKaxvKoFhYwuY1aPiL_IcicUiYKaiAC0OuwL9igMktr71-mRIWFF_nF6L_qH-Vpa9c92LQTftFKefaqNhAOP4K0hXsOLUpFjO2JETE7AgGF1sDpD37eKFaQOsDg0Oh3ji3I9RAZqEPo1go4RZyVFwtx-8odgF-P3DZU_6VPe_szKs9m_-mScbVWnVm1z1YsB"
+      },
+      {
+        "name": "Scala",
+        "description": "Primary language for high-performance Spark jobs.",
+        "level": "Intermediate",
+        "progress": 65,
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuDke0pRrczKxU1LW_0GfiksoqYB94bUlh43lgQ9kYbtCaU-cJC4NgE1ojC8C48fJiPm26FMbfJ5UOoCrg8UvBlL6fVa4bwXBGrpL-dUTT17JxC92M_Dghu_CD4h1FibuSLSMRNAEKtqsbIpejlh-fIrSR-RBxTWsNziJ2JwT9ChNhqFipqtSJxBUFCwu4bFV_2sH92AxprnMsEgZo5liQQkXwHKyEU8rY-lEvhwQU9huDiEStGueIsCn4PSL_E6S55yLPCn4ARL1cGM"
+      }
+    ],
+    "cloudPlatforms": [
+      {
+        "name": "AWS",
+        "description": "Extensive experience with S3, Lambda, Redshift, EMR, and Glue for serverless ETL.",
+        "tags": ["Certified", "3 Yrs"],
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuDKw1FYicJ3-agtgOOKMlkp2p6XWii3kddzWyZIF8UXyPRKOIbpWmSH1NlC3REd16zQEgCdJ3TU479WzzxBXEuNvWJaGtKzJsWb16KEr7O9ZcyGDYRjbmMlB-qjTVhorR_xBKJ3Uv3OAYWkiZE3W3EPED56GMNXe4iaNtyt2QVntQSXJX6nAGiKmIHWVZyGH_EZ6Jqaa9xaol9Bi6SliANWWIqHQPwCbHC0rJBcQvNxbepCpL-slGznS--124hUX7-hWeKUGuncPnEt"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Focus on BigQuery for warehousing and Dataflow for streaming pipelines.",
+        "tags": ["Professional", "2 Yrs"],
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuBv65FnxPuwYyneumUGLOB10ITNE1KwWGdWos2kauMO2PeNnXXtDuC3GVcW8BwsZjYOfuDCUJ0WroIHlducRHtcsplJi0Nuh-q-tvbwgFtEkqcc9LjFZEalYOeUi8jNebYbh2nEDq83chAVlVyeI0GKHtHVVNs_0rJ2PElVpaE1UYAj0bphxviGVGqmFWZkF06_6CBNfQ0yjCmZCR9bEhMo8vfWTDbviQ9ULW2dj3M1PeV1bb1r3ZBJn1n-ZLQa4l5WxH-9nPjPslmf"
+      },
+      {
+        "name": "Containerization",
+        "description": "Docker & Kubernetes for orchestrating reproducible data environments.",
+        "tags": ["Advanced"],
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuA9XEJdMgE0APKM5qWkClDjTz2n4Jj60MpQ92FTNbg7SR7j8MBjoIFEon7gpnHMRQc3oO2A_VMuSxXZGNJg7UpPiD9J1KjEWn3SzJ4PkyV2hib5vfc52fOfPc0sLePm-zcHGKWOXG2ibVTE7ym4Lvy-FbVr21KYSRxJUnOiIKsn8BhWLlZfJWcOZny6figWdhLYJzF6YeGkUcORswTxbosg5AOp4RuRKDsCfbP3hCTM9_JtBw1bIvtO3RUDKzxWrAfvwi78P4XWviWh"
+      }
+    ],
+    "bigDataTools": [
+      {
+        "name": "Apache Spark",
+        "category": "Batch Processing",
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuAMLt06j-NnCqaY3BRfVUeF2q3axFe1iRA-Zsa5Ard_c3flRBsAl8Ztds_OtdLeWEKVXLmmQEGImTRPlATDRrDWhwIw7KIU3nn8HDAZEf2TtNKoZYQskvwDhiPc92dgFzMlC5d66jURsDUYOqNwJTZv25DHn0DuFV1FFiQQ79L8QByyY1t18eHEUs4wIReFZcIDeGOABNrMcOBTUn_s3DVZf1BnmwjC1pAD8MQ6S9KwNS6Ut0Wfk_77jW8gwoeb8cO2Kp8lHhhyefqt"
+      },
+      {
+        "name": "Kafka",
+        "category": "Streaming",
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuCGR2plU1wrEHMdK2f9qkUUUZmnMudZPYS5ODOGZNCcPt5RCbBqTwVjCB_HUcjk1vWLpwEmKmMLUUXI-lLHSt4lw9wVM16OdP4zU9pLZ_0ICyG1TCQDFGvTIBvqW5PLew073lSiE5Dvw_ffLCXzGI_WnNXgH7zWKj1NFJhKo7Nx6LMO9alsFLczIY6PsVviFFefMFjpyTezCRD91bBOFxDBV5K0m75TY-5xs8JoAZW8mycVaH0VXL2FtCUQCPlHwae63THu8JDpky5-"
+      },
+      {
+        "name": "Airflow",
+        "category": "Orchestration",
+        "icon": "wind_power"
+      },
+      {
+        "name": "Snowflake",
+        "category": "Warehousing",
+        "icon": "ac_unit"
+      },
+      {
+        "name": "dbt",
+        "category": "Transformation",
+        "icon": "transform"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand" id="navBrand">Portfolio</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="tech-stack.html" class="nav-link">Tech Stack</a>
+                <a href="certifications.html" class="nav-link active">Certifications</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="page-header">
+            <h1 id="pageHeading" class="page-heading"></h1>
+            <p id="pageSubheading" class="page-subheading"></p>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-value" id="verifiedCerts"></div>
+                    <div class="stat-label">Verified Certs</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="vendors"></div>
+                    <div class="stat-label">Vendors</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="grid" id="certificationsGrid"></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+    <script>
+        loadConfig().then(config => {
+            document.getElementById('navBrand').textContent = config.personal.name;
+            document.getElementById('pageHeading').textContent = config.certifications.heading;
+            document.getElementById('pageSubheading').textContent = config.certifications.subheading;
+            document.getElementById('verifiedCerts').textContent = config.certifications.stats.verified;
+            document.getElementById('vendors').textContent = config.certifications.stats.vendors;
+
+            // Load certifications
+            const certsGrid = document.getElementById('certificationsGrid');
+            config.certifications.items.forEach(cert => {
+                const certEl = document.createElement('div');
+                certEl.className = 'cert-card';
+                certEl.innerHTML = `
+                    <img src="${cert.logo}" alt="${cert.provider}" class="cert-logo">
+                    <div class="cert-content">
+                        <h3 class="cert-title">${cert.title}</h3>
+                        <p class="cert-provider">${cert.provider}</p>
+                        <div class="cert-footer">
+                            <span class="cert-status ${cert.status.toLowerCase().includes('active') ? 'active' : cert.status.toLowerCase().includes('expires') ? 'expires' : 'lifetime'}">${cert.status}</span>
+                            <span class="cert-issued">Issued: ${cert.issued}</span>
+                        </div>
+                    </div>
+                `;
+                certsGrid.appendChild(certEl);
+            });
+        });
+    </script>
+</body>
+</html>
