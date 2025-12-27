@@ -1,6 +1,6 @@
 {
   "personal": {
-    "name": "Alex Chen",
+    "name": "Bhaumik Soni",
     "title": "Senior Data Engineer",
     "tagline": "Building scalable data pipelines and architectures with Python, SQL, Spark, and AWS",
     "profileImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuDaioijDp5iqbfVxZcTcIdYwo47t-wqbacfwkTKu92-9mIi_5xvq5ngiT_oYbcBE76ZxdiRKCrgp45T4Hav38cRFF_tjATkaWlOepTfv-6YdAbevv_DW3myS_4kQJUI5SYONH3ggtABBnD9uySKBemU3Qar4-4gYU4Q7UMp1b_4rmqGCsoltIxZbCE3vmZcLyHVWr95JBMRtjDvG-MzbrzR5NHZHTiMrLgCFMlUTicditVfMhI_6v0Ex5Uj-EzeVXNkF8QPD7fWqNAV",
@@ -8,9 +8,9 @@
     "resumeUrl": "/resume.pdf"
   },
   "contact": {
-    "email": "alex.chen@example.com",
-    "linkedin": "https://linkedin.com/in/alechen",
-    "github": "https://github.com/alechen-data",
+    "email": "bhaumik0369@gmai.com",
+    "linkedin": "https://linkedin.com/in/bhaumiksonii",
+    "github": "https://github.com/bhaumiksonii",
     "web3formsKey": "",
     "status": {
       "openToWork": true,
@@ -19,11 +19,11 @@
     }
   },
   "home": {
-    "heading": "Alex Chen",
+    "heading": "Bhaumik Soni",
     "subheading": "Senior Data Engineer",
     "description": "Building scalable data pipelines and architectures with Python, SQL, Spark, and AWS",
     "stats": {
-      "experience": "5+",
+      "experience": "3+",
       "toolsMastered": "20+"
     },
     "cards": [
