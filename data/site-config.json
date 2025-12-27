@@ -1,6 +1,6 @@
 {
   "personal": {
-    "name": "Bhaumik Soni",
+    "name": "Alex Chen",
     "title": "Senior Data Engineer",
     "tagline": "Building scalable data pipelines and architectures with Python, SQL, Spark, and AWS",
     "profileImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuDaioijDp5iqbfVxZcTcIdYwo47t-wqbacfwkTKu92-9mIi_5xvq5ngiT_oYbcBE76ZxdiRKCrgp45T4Hav38cRFF_tjATkaWlOepTfv-6YdAbevv_DW3myS_4kQJUI5SYONH3ggtABBnD9uySKBemU3Qar4-4gYU4Q7UMp1b_4rmqGCsoltIxZbCE3vmZcLyHVWr95JBMRtjDvG-MzbrzR5NHZHTiMrLgCFMlUTicditVfMhI_6v0Ex5Uj-EzeVXNkF8QPD7fWqNAV",
@@ -32,6 +32,12 @@
         "icon": "code",
         "description": "Explore the languages, frameworks, and tools I use to build data solutions",
         "link": "/tech-stack"
+      },
+      {
+        "title": "Projects",
+        "icon": "rocket_launch",
+        "description": "Real-world data engineering projects and solutions I've built",
+        "link": "/projects"
       },
       {
         "title": "Certifications",
@@ -96,6 +102,76 @@
         "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuCP2Op0TN_DezR96icGes34Tq9sB4Vujc9X0g7ulusEPqD-JjZcg0wRhbsaI9ELRXclf9OlkZ9F74N1LigTaDacsxCU0tQBmxXm3n3HBvCZZAfLBszGpckNSxW5jHR-rPqNC4tqoKDC-1utyLjQ8Zopm8WH1JkqkQs4wZ2kSu40FCHEU_OhyhQ99Q-b8xhTsgnx3KO7w0irrNY747MDnaQ6WvoxMk77NisoCzu_xe830QrHFxgCPbFdQgo-aEDsU8OZM3CeIl1hq7kc",
         "status": "Lifetime",
         "issued": "Feb 14, 2022"
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Projects",
+    "subheading": "Real-world data engineering solutions and architectures I've designed and implemented across various industries.",
+    "stats": {
+      "completed": 15,
+      "inProduction": 12
+    },
+    "items": [
+      {
+        "title": "Real-time Fraud Detection Pipeline",
+        "description": "Built a streaming data pipeline using Kafka and Spark to detect fraudulent transactions in real-time, processing 50K+ events per second with sub-second latency.",
+        "technologies": ["Apache Kafka", "Spark Streaming", "AWS Lambda", "Redis"],
+        "github": "https://github.com/alechen-data/fraud-detection",
+        "demo": "https://fraud-detection-demo.example.com",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDKw1FYicJ3-agtgOOKMlkp2p6XWii3kddzWyZIF8UXyPRKOIbpWmSH1NlC3REd16zQEgCdJ3TU479WzzxBXEuNvWJaGtKzJsWb16KEr7O9ZcyGDYRjbmMlB-qjTVhorR_xBKJ3Uv3OAYWkiZE3W3EPED56GMNXe4iaNtyt2QVntQSXJX6nAGiKmIHWVZyGH_EZ6Jqaa9xaol9Bi6SliANWWIqHQPwCbHC0rJBcQvNxbepCpL-slGznS--124hUX7-hWeKUGuncPnEt",
+        "status": "Production",
+        "year": "2024"
+      },
+      {
+        "title": "Multi-Cloud Data Warehouse Migration",
+        "description": "Led the migration of 5TB+ data warehouse from on-premise Oracle to Snowflake, implementing automated ETL pipelines with dbt and reducing query times by 70%.",
+        "technologies": ["Snowflake", "dbt", "Python", "AWS S3"],
+        "github": "",
+        "demo": "",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCfWqqvqQzdy1Kyz9zNDfWMoplxheYhaEsbS4F5-CGWjGKE6VdEJUoCrIs2K8BNMKhReMH6QY0GtUgbDeadR3N1X3VaRlwQwQJW1iDGQDViF_vqeKR42IAimJQzLPA9uqtBDqmsu9mOVPRH_wXZ0T2rONakDh-UkbHJzY86s-_Lj4LeR1mOh9lHBb1pNOTEZAXEZKQJco52EhD38WeYYIAJgyT7dx60rp_jSL13IcIbKem6TDEZYFTXp75X-svrIt3E3nsZ1E9z37oe",
+        "status": "Production",
+        "year": "2023"
+      },
+      {
+        "title": "Customer Analytics Data Lake",
+        "description": "Designed and implemented a serverless data lake on AWS using S3, Glue, and Athena to centralize customer analytics data from 10+ sources, enabling self-service BI for 100+ users.",
+        "technologies": ["AWS S3", "AWS Glue", "Athena", "Apache Parquet"],
+        "github": "https://github.com/alechen-data/customer-analytics-lake",
+        "demo": "",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDeGoD0tS-hxrPlCKI1mXuAkb_TCV6IW4iRTY2Ge3XXqFZSwMnzO5Vsp3FBK9xlFJMXS7PMxygf06ZShgrl6rWV7F_O_18oKyTlL-fCJqGRYAH2thr-QuLq4S8S1LvSGAXWOASnE_JzcfG_AtE0NOCy2t9Z23lcjTMsxeUC5l9mQdrE4KVx9apdmobLcc3IHdImxEUFRCBOMDTRWWoA9mbswmqy94-GeTefkjwae8g9c-656XmMhJ7w0H3mXtoNbi0TekwlNoetrw2L",
+        "status": "Production",
+        "year": "2023"
+      },
+      {
+        "title": "ML Model Training Pipeline",
+        "description": "Created an automated ML pipeline using Airflow and MLflow to train, version, and deploy predictive models for demand forecasting, reducing manual effort by 90%.",
+        "technologies": ["Apache Airflow", "MLflow", "Scikit-learn", "Docker"],
+        "github": "https://github.com/alechen-data/ml-pipeline",
+        "demo": "",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBv65FnxPuwYyneumUGLOB10ITNE1KwWGdWos2kauMO2PeNnXXtDuC3GVcW8BwsZjYOfuDCUJ0WroIHlducRHtcsplJi0Nuh-q-tvbwgFtEkqcc9LjFZEalYOeUi8jNebYbh2nEDq83chAVlVyeI0GKHtHVVNs_0rJ2PElVpaE1UYAj0bphxviGVGqmFWZkF06_6CBNfQ0yjCmZCR9bEhMo8vfWTDbviQ9ULW2dj3M1PeV1bb1r3ZBJn1n-ZLQa4l5WxH-9nPjPslmf",
+        "status": "Production",
+        "year": "2024"
+      },
+      {
+        "title": "Log Analytics Platform",
+        "description": "Built a centralized log analytics platform using ELK stack (Elasticsearch, Logstash, Kibana) to process and visualize 10M+ daily log events from microservices architecture.",
+        "technologies": ["Elasticsearch", "Logstash", "Kibana", "Docker"],
+        "github": "",
+        "demo": "",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA9XEJdMgE0APKM5qWkClDjTz2n4Jj60MpQ92FTNbg7SR7j8MBjoIFEon7gpnHMRQc3oO2A_VMuSxXZGNJg7UpPiD9J1KjEWn3SzJ4PkyV2hib5vfc52fOfPc0sLePm-zcHGKWOXG2ibVTE7ym4Lvy-FbVr21KYSRxJUnOiIKsn8BhWLlZfJWcOZny6figWdhLYJzF6YeGkUcORswTxbosg5AOp4RuRKDsCfbP3hCTM9_JtBw1bIvtO3RUDKzxWrAfvwi78P4XWviWh",
+        "status": "Production",
+        "year": "2022"
+      },
+      {
+        "title": "IoT Sensor Data Pipeline",
+        "description": "Developed a scalable IoT data ingestion pipeline using Google Cloud Pub/Sub and Dataflow to process sensor data from 10K+ devices, storing time-series data in BigQuery.",
+        "technologies": ["Google Cloud Pub/Sub", "Dataflow", "BigQuery", "Python"],
+        "github": "https://github.com/alechen-data/iot-pipeline",
+        "demo": "https://iot-dashboard.example.com",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAQIU5E3vaORUz2ZOX3vFsW-yb-00YX3Qcerw7Rc_W2BE815f96yPbYqoJrxRRL4oPRldmlywJDjvXhtYOTUbXfcCzQrPzaP50YY6CL2m3bo8nirCip6LeFgmrsImOOyngojUzIRM7ZFEmiAJAS72EFZbdaN0WnFYID5xy3M-OG15PKA4FZ8uTY8h8zbkyx6A0NRSazDIX51PUo3h7z_F2JvcpTT20NOMJFSEe4SPKjAUMgED7l53I3AbbLJ0zSwIrWNaG7AT8B4A_J",
+        "status": "Production",
+        "year": "2023"
       }
     ]
   },
