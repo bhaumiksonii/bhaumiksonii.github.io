@@ -1,6 +1,6 @@
 {
   "personal": {
-    "name": "Bhaumik Soni",
+    "name": "Alex Chen",
     "title": "Senior Data Engineer",
     "tagline": "Building scalable data pipelines and architectures with Python, SQL, Spark, and AWS",
     "profileImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuDaioijDp5iqbfVxZcTcIdYwo47t-wqbacfwkTKu92-9mIi_5xvq5ngiT_oYbcBE76ZxdiRKCrgp45T4Hav38cRFF_tjATkaWlOepTfv-6YdAbevv_DW3myS_4kQJUI5SYONH3ggtABBnD9uySKBemU3Qar4-4gYU4Q7UMp1b_4rmqGCsoltIxZbCE3vmZcLyHVWr95JBMRtjDvG-MzbrzR5NHZHTiMrLgCFMlUTicditVfMhI_6v0Ex5Uj-EzeVXNkF8QPD7fWqNAV",
@@ -8,9 +8,9 @@
     "resumeUrl": "/resume.pdf"
   },
   "contact": {
-    "email": "bhaumik0369@gmail.com",
-    "linkedin": "https://linkedin.com/in/bhaumiksonii",
-    "github": "https://github.com/bhaumiksonii",
+    "email": "alex.chen@example.com",
+    "linkedin": "https://linkedin.com/in/alechen",
+    "github": "https://github.com/alechen-data",
     "web3formsKey": "",
     "status": {
       "openToWork": true,
@@ -116,7 +116,11 @@
       {
         "title": "Real-time Fraud Detection Pipeline",
         "description": "Built a streaming data pipeline using Kafka and Spark to detect fraudulent transactions in real-time, processing 50K+ events per second with sub-second latency.",
+        "detailedDescription": "This comprehensive fraud detection system leverages Apache Kafka for event streaming and Spark Streaming for real-time processing. The architecture includes multiple machine learning models that analyze transaction patterns, user behavior, and risk signals. The system processes over 50,000 events per second with sub-second latency and has reduced fraudulent transactions by 85%. Key features include anomaly detection, real-time scoring, automated alerts, and a comprehensive dashboard for fraud analysts.",
         "technologies": ["Apache Kafka", "Spark Streaming", "AWS Lambda", "Redis"],
+        "challenges": "Handling high-throughput streaming data while maintaining low latency, implementing effective ML models for fraud detection, ensuring system reliability and fault tolerance.",
+        "solutions": "Implemented a distributed architecture with Kafka partitioning, optimized Spark jobs with windowing operations, used Redis for fast lookups, and deployed multiple ML models for ensemble predictions.",
+        "impact": "Reduced fraudulent transactions by 85%, saved $2.5M annually, improved detection accuracy to 94%",
         "github": "https://github.com/alechen-data/fraud-detection",
         "demo": "https://fraud-detection-demo.example.com",
         "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDKw1FYicJ3-agtgOOKMlkp2p6XWii3kddzWyZIF8UXyPRKOIbpWmSH1NlC3REd16zQEgCdJ3TU479WzzxBXEuNvWJaGtKzJsWb16KEr7O9ZcyGDYRjbmMlB-qjTVhorR_xBKJ3Uv3OAYWkiZE3W3EPED56GMNXe4iaNtyt2QVntQSXJX6nAGiKmIHWVZyGH_EZ6Jqaa9xaol9Bi6SliANWWIqHQPwCbHC0rJBcQvNxbepCpL-slGznS--124hUX7-hWeKUGuncPnEt",
@@ -126,7 +130,11 @@
       {
         "title": "Multi-Cloud Data Warehouse Migration",
         "description": "Led the migration of 5TB+ data warehouse from on-premise Oracle to Snowflake, implementing automated ETL pipelines with dbt and reducing query times by 70%.",
+        "detailedDescription": "Orchestrated a complete data warehouse migration from legacy on-premise Oracle systems to Snowflake cloud data warehouse. The project involved migrating over 5TB of historical data, rebuilding 200+ ETL pipelines using dbt for transformation, and implementing data quality checks throughout the pipeline. The new architecture leverages Snowflake's elastic compute and storage separation, resulting in 70% faster query performance and 40% cost reduction.",
         "technologies": ["Snowflake", "dbt", "Python", "AWS S3"],
+        "challenges": "Zero-downtime migration, maintaining data integrity during transfer, rewriting complex stored procedures, training team on new technology stack.",
+        "solutions": "Implemented phased migration approach with parallel systems, automated data validation scripts, converted stored procedures to dbt models, conducted comprehensive training program.",
+        "impact": "70% faster query performance, 40% cost reduction, improved data reliability and governance",
         "github": "",
         "demo": "",
         "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCfWqqvqQzdy1Kyz9zNDfWMoplxheYhaEsbS4F5-CGWjGKE6VdEJUoCrIs2K8BNMKhReMH6QY0GtUgbDeadR3N1X3VaRlwQwQJW1iDGQDViF_vqeKR42IAimJQzLPA9uqtBDqmsu9mOVPRH_wXZ0T2rONakDh-UkbHJzY86s-_Lj4LeR1mOh9lHBb1pNOTEZAXEZKQJco52EhD38WeYYIAJgyT7dx60rp_jSL13IcIbKem6TDEZYFTXp75X-svrIt3E3nsZ1E9z37oe",
@@ -136,7 +144,11 @@
       {
         "title": "Customer Analytics Data Lake",
         "description": "Designed and implemented a serverless data lake on AWS using S3, Glue, and Athena to centralize customer analytics data from 10+ sources, enabling self-service BI for 100+ users.",
+        "detailedDescription": "Built a scalable serverless data lake architecture on AWS that consolidates customer data from 10+ disparate sources including CRM, marketing platforms, web analytics, and transactional systems. The solution uses AWS Glue for ETL, S3 for storage with optimized Parquet format, and Athena for SQL querying. Implemented data catalog, partitioning strategies, and access controls to enable self-service analytics for over 100 business users across different departments.",
         "technologies": ["AWS S3", "AWS Glue", "Athena", "Apache Parquet"],
+        "challenges": "Integrating diverse data sources with different schemas, ensuring data quality and consistency, managing access controls, optimizing query performance.",
+        "solutions": "Developed unified data model with schema evolution support, implemented automated data quality checks, configured Lake Formation for fine-grained access control, used partitioning and compression for optimization.",
+        "impact": "Enabled self-service analytics for 100+ users, reduced data analysis time by 60%, improved decision-making with unified customer view",
         "github": "https://github.com/alechen-data/customer-analytics-lake",
         "demo": "",
         "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDeGoD0tS-hxrPlCKI1mXuAkb_TCV6IW4iRTY2Ge3XXqFZSwMnzO5Vsp3FBK9xlFJMXS7PMxygf06ZShgrl6rWV7F_O_18oKyTlL-fCJqGRYAH2thr-QuLq4S8S1LvSGAXWOASnE_JzcfG_AtE0NOCy2t9Z23lcjTMsxeUC5l9mQdrE4KVx9apdmobLcc3IHdImxEUFRCBOMDTRWWoA9mbswmqy94-GeTefkjwae8g9c-656XmMhJ7w0H3mXtoNbi0TekwlNoetrw2L",
@@ -146,7 +158,11 @@
       {
         "title": "ML Model Training Pipeline",
         "description": "Created an automated ML pipeline using Airflow and MLflow to train, version, and deploy predictive models for demand forecasting, reducing manual effort by 90%.",
+        "detailedDescription": "Developed an end-to-end automated machine learning pipeline that handles data preparation, feature engineering, model training, evaluation, versioning, and deployment. The system uses Apache Airflow for orchestration and MLflow for experiment tracking and model registry. The pipeline trains multiple models daily, automatically selects the best performer, and deploys to production with rollback capabilities. Supports A/B testing and monitors model performance in production.",
         "technologies": ["Apache Airflow", "MLflow", "Scikit-learn", "Docker"],
+        "challenges": "Automating the entire ML lifecycle, managing model versions and experiments, ensuring reproducibility, handling model drift.",
+        "solutions": "Built modular pipeline with reusable components, implemented comprehensive logging and tracking with MLflow, containerized models with Docker, set up automated retraining triggers.",
+        "impact": "90% reduction in manual ML work, faster model deployment cycles, improved forecast accuracy by 25%",
         "github": "https://github.com/alechen-data/ml-pipeline",
         "demo": "",
         "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBv65FnxPuwYyneumUGLOB10ITNE1KwWGdWos2kauMO2PeNnXXtDuC3GVcW8BwsZjYOfuDCUJ0WroIHlducRHtcsplJi0Nuh-q-tvbwgFtEkqcc9LjFZEalYOeUi8jNebYbh2nEDq83chAVlVyeI0GKHtHVVNs_0rJ2PElVpaE1UYAj0bphxviGVGqmFWZkF06_6CBNfQ0yjCmZCR9bEhMo8vfWTDbviQ9ULW2dj3M1PeV1bb1r3ZBJn1n-ZLQa4l5WxH-9nPjPslmf",
@@ -156,7 +172,11 @@
       {
         "title": "Log Analytics Platform",
         "description": "Built a centralized log analytics platform using ELK stack (Elasticsearch, Logstash, Kibana) to process and visualize 10M+ daily log events from microservices architecture.",
+        "detailedDescription": "Implemented a comprehensive log analytics and monitoring platform using the ELK stack to aggregate, process, and visualize logs from a distributed microservices architecture. The system ingests over 10 million log events daily, provides real-time search capabilities, custom dashboards, and automated alerting. Includes log parsing, enrichment, and retention policies. Enables rapid troubleshooting and proactive monitoring of system health.",
         "technologies": ["Elasticsearch", "Logstash", "Kibana", "Docker"],
+        "challenges": "Handling high log volume, maintaining search performance, designing effective retention policies, creating useful visualizations.",
+        "solutions": "Implemented log aggregation with buffering, optimized Elasticsearch indices with proper sharding, configured hot-warm architecture for data retention, created role-based dashboards.",
+        "impact": "Reduced mean time to resolution (MTTR) by 65%, improved system observability, proactive issue detection",
         "github": "",
         "demo": "",
         "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA9XEJdMgE0APKM5qWkClDjTz2n4Jj60MpQ92FTNbg7SR7j8MBjoIFEon7gpnHMRQc3oO2A_VMuSxXZGNJg7UpPiD9J1KjEWn3SzJ4PkyV2hib5vfc52fOfPc0sLePm-zcHGKWOXG2ibVTE7ym4Lvy-FbVr21KYSRxJUnOiIKsn8BhWLlZfJWcOZny6figWdhLYJzF6YeGkUcORswTxbosg5AOp4RuRKDsCfbP3hCTM9_JtBw1bIvtO3RUDKzxWrAfvwi78P4XWviWh",
@@ -166,7 +186,11 @@
       {
         "title": "IoT Sensor Data Pipeline",
         "description": "Developed a scalable IoT data ingestion pipeline using Google Cloud Pub/Sub and Dataflow to process sensor data from 10K+ devices, storing time-series data in BigQuery.",
+        "detailedDescription": "Built a robust IoT data processing system that handles real-time sensor data from over 10,000 connected devices. The architecture uses Google Cloud Pub/Sub for reliable message ingestion, Dataflow for stream processing and aggregation, and BigQuery for time-series storage and analysis. Implements data validation, outlier detection, and automated alerting for sensor anomalies. Provides real-time dashboards showing device health and sensor metrics.",
         "technologies": ["Google Cloud Pub/Sub", "Dataflow", "BigQuery", "Python"],
+        "challenges": "Handling device connectivity issues, managing out-of-order events, scaling to handle growing device fleet, ensuring data accuracy.",
+        "solutions": "Implemented retry logic with exponential backoff, used watermarks for late data handling, designed auto-scaling pipeline, added comprehensive data validation.",
+        "impact": "Successfully scaled to 10K+ devices, 99.9% data delivery reliability, enabled predictive maintenance capabilities",
         "github": "https://github.com/alechen-data/iot-pipeline",
         "demo": "https://iot-dashboard.example.com",
         "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAQIU5E3vaORUz2ZOX3vFsW-yb-00YX3Qcerw7Rc_W2BE815f96yPbYqoJrxRRL4oPRldmlywJDjvXhtYOTUbXfcCzQrPzaP50YY6CL2m3bo8nirCip6LeFgmrsImOOyngojUzIRM7ZFEmiAJAS72EFZbdaN0WnFYID5xy3M-OG15PKA4FZ8uTY8h8zbkyx6A0NRSazDIX51PUo3h7z_F2JvcpTT20NOMJFSEe4SPKjAUMgED7l53I3AbbLJ0zSwIrWNaG7AT8B4A_J",

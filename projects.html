@@ -43,8 +43,101 @@
         </section>
     </main>
 
+    <!-- Added project modal for detailed view -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeProjectModal()">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Project details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
     <script src="app.js"></script>
     <script>
+        function openProjectModal(project) {
+            const modal = document.getElementById('projectModal');
+            const modalBody = document.getElementById('modalBody');
+            
+            modalBody.innerHTML = `
+                <div class="modal-image" style="background-image: url('${project.image}')">
+                    <div class="project-status ${project.status.toLowerCase()}">${project.status}</div>
+                </div>
+                <div class="modal-header">
+                    <h2>${project.title}</h2>
+                    <span class="project-year">${project.year}</span>
+                </div>
+                <div class="modal-section">
+                    <h3>Overview</h3>
+                    <p>${project.detailedDescription || project.description}</p>
+                </div>
+                <div class="modal-section">
+                    <h3>Technologies Used</h3>
+                    <div class="project-technologies">
+                        ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                    </div>
+                </div>
+                ${project.challenges ? `
+                    <div class="modal-section">
+                        <h3>Challenges</h3>
+                        <p>${project.challenges}</p>
+                    </div>
+                ` : ''}
+                ${project.solutions ? `
+                    <div class="modal-section">
+                        <h3>Solutions</h3>
+                        <p>${project.solutions}</p>
+                    </div>
+                ` : ''}
+                ${project.impact ? `
+                    <div class="modal-section impact-section">
+                        <h3>Impact & Results</h3>
+                        <p>${project.impact}</p>
+                    </div>
+                ` : ''}
+                <div class="modal-links">
+                    ${project.github ? `
+                        <a href="${project.github}" target="_blank" rel="noopener" class="btn-primary">
+                            <span class="material-symbols-outlined">code</span>
+                            View on GitHub
+                        </a>
+                    ` : ''}
+                    ${project.demo ? `
+                        <a href="${project.demo}" target="_blank" rel="noopener" class="btn-primary">
+                            <span class="material-symbols-outlined">open_in_new</span>
+                            Live Demo
+                        </a>
+                    ` : ''}
+                </div>
+            `;
+            
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeProjectModal() {
+            const modal = document.getElementById('projectModal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('projectModal');
+            if (event.target === modal) {
+                closeProjectModal();
+            }
+        }
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeProjectModal();
+            }
+        });
+
         // Load projects data
         loadConfig().then(config => {
             document.getElementById('navBrand').textContent = config.personal.name;
@@ -58,6 +151,8 @@
             config.projects.items.forEach(project => {
                 const projectCard = document.createElement('div');
                 projectCard.className = 'project-card';
+                projectCard.style.cursor = 'pointer';
+                projectCard.onclick = () => openProjectModal(project);
                 
                 projectCard.innerHTML = `
                     <div class="project-image" style="background-image: url('${project.image}')">
@@ -74,13 +169,13 @@
                         </div>
                         <div class="project-links">
                             ${project.github ? `
-                                <a href="${project.github}" target="_blank" rel="noopener" class="project-link">
+                                <a href="${project.github}" target="_blank" rel="noopener" class="project-link" onclick="event.stopPropagation()">
                                     <span class="material-symbols-outlined">code</span>
                                     GitHub
                                 </a>
                             ` : ''}
                             ${project.demo ? `
-                                <a href="${project.demo}" target="_blank" rel="noopener" class="project-link">
+                                <a href="${project.demo}" target="_blank" rel="noopener" class="project-link" onclick="event.stopPropagation()">
                                     <span class="material-symbols-outlined">open_in_new</span>
                                     Live Demo
                                 </a>
