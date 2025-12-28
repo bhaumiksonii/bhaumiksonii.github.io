@@ -52,7 +52,7 @@
     </main>
 
     <script src="app.js"></script>
-    <!-- <script>
+    <script>
         // Load home page data
         loadConfig().then(config => {
             document.getElementById('navBrand').textContent = config.personal.name;
@@ -70,19 +70,20 @@
             };
 
             // Load cards
-            const cardsSection = document.getElementById('cardsSection');
-            config.home.cards.forEach(card => {
-                const cardEl = document.createElement('a');
-                cardEl.href = card.link + '.html';
-                cardEl.className = 'card';
-                cardEl.innerHTML = `
-                    <span class="material-symbols-outlined card-icon">${card.icon}</span>
-                    <h3 class="card-title">${card.title}</h3>
-                    <p class="card-description">${card.description}</p>
-                `;
-                cardsSection.appendChild(cardEl);
-            });
-        });
-    </script> -->
+            // const cardsSection = document.getElementById('cardsSection');
+            // config.home.cards.forEach(card => {
+            //     const cardEl = document.createElement('a');
+            //     cardEl.href = card.link + '.html';
+            //     cardEl.className = 'card';
+            //     cardEl.innerHTML = `
+            //         <span class="material-symbols-outlined card-icon">${card.icon}</span>
+            //         <h3 class="card-title">${card.title}</h3>
+            //         <p class="card-description">${card.description}</p>
+            //     `;
+            //     cardsSection.appendChild(cardEl);
+            // });
+        }
+        );
+    </script>
 </body>
 </html>
